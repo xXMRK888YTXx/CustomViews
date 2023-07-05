@@ -83,7 +83,7 @@ class MainActivity : ComponentActivity() {
                         Button(onClick = {
                             progress = Random(System.currentTimeMillis()).nextInt(0,100)
                         }) {
-                            Text(text = "Aninate with Random Value")
+                            Text(text = "Animate with Random Value")
                         }
                     }
                 }
